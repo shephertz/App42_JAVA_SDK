@@ -1,4 +1,4 @@
-* [Release Version 1.6](https://github.com/shephertz/App42_JAVA_SDK/blob/master/CHANGE_LOG.md#version-16)
+* [Release Version 1.6](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-16)
 
 
 ## Version 1.6
