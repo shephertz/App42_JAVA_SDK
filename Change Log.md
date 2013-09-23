@@ -47,7 +47,7 @@ None
 
 **Release Version:** 1.6
 
-**The following feature have been pushed to the latest :**
+**The following features have been pushed to the latest :**
 
 
 
