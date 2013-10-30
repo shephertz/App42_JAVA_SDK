@@ -1,7 +1,7 @@
-App42_BPaaS_JAVA_SDK
+App42_BPaaS_Java_SDK
 ==============
 
-App42 BPaaS Cloud API Client SDK JAR files for JAVA
+App42 BPaaS Cloud API Client SDK files for JAVA
 
 - Download the App42 BPaaS JAVA SDK
 - Unzip the file and open **App42 JAVA Sample** project.
