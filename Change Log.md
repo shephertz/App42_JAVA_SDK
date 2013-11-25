@@ -8,11 +8,14 @@
 
 **Release Version:** 1.9
 
-**The following features have been pushed to the services :**
+**The following features have been pushed  :**
 
 ```
 Set logged in user
+Log uncaught exception
 ```
+
+**The following features have been pushed to the services :**
 
 **PUSH SERVICE**
 
