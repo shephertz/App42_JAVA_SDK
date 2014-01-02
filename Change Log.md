@@ -3,7 +3,8 @@
 * [Release Version 1.7](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-17)
 * [Release Version 1.6](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-16)
 
-## Version 1.9 [Download] (https://github.com/shephertz/App42_JAVA_SDK/raw/master/1.9/app42_java_1.9.zip)
+## Version 1.9 
+[Download] (https://github.com/shephertz/App42_JAVA_SDK/raw/master/1.9/app42_java_1.9.zip)
 
 **Release Date:** 25-11-2013
 
@@ -37,7 +38,8 @@ None
 ```
 
 
-## Version 1.8 [Download] (https://github.com/shephertz/App42_JAVA_SDK/raw/master/1.8/app42_java_1.8.zip)
+## Version 1.8 
+[Download] (https://github.com/shephertz/App42_JAVA_SDK/raw/master/1.8/app42_java_1.8.zip)
 
 **Release Date:** 23-10-2013
 
@@ -56,7 +58,8 @@ None
 ```
 
 
-## Version 1.7 [Download] (https://github.com/shephertz/App42_JAVA_SDK/raw/1.x/1.7/app42_java_1.7.zip)
+## Version 1.7 
+[Download] (https://github.com/shephertz/App42_JAVA_SDK/raw/1.x/1.7/app42_java_1.7.zip)
 
 **Release Date:** 23-09-2013
 
@@ -94,7 +97,8 @@ None
 ```
 
 
-## Version 1.6 [Download] (https://github.com/shephertz/App42_JAVA_SDK/raw/1.x/1.6/app42_java_1.6.zip)
+## Version 1.6 
+[Download] (https://github.com/shephertz/App42_JAVA_SDK/raw/1.x/1.6/app42_java_1.6.zip)
 
 **Release Date:** 07-08-2013
 
