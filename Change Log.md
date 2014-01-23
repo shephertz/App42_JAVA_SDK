@@ -38,7 +38,7 @@ updateDocumentByQuery
 **REVIEW SERVICE**
 
 ```
-updateDocumentByQuery
+deleteReviewByReviewId
 deleteCommentByCommentId
 ```
 
