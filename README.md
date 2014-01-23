@@ -1,8 +1,16 @@
 App42_JAVA_SDK
 ==============
 
-App42 Cloud API Client SDK JAR files for Java
+Download and Set up SDK
 
-[Download the latest App42 Java SDK] (https://github.com/shephertz/App42_JAVA_SDK/raw/master/1.9/app42_java_1.9.zip)
+1). [Download] (https://github.com/shephertz/App42_JAVA_SDK/archive/master.zip) Java SDK
 
-[Documentation and API guide] (http://api.shephertz.com/cloudapidocs/index.php)
+2). Unzip downloaded Zip file. Unzip folder contains version folder of jar and sample folder.
+
+3). Version folder will contain App42_JAVA_SDK-x.x.x.jar,lib folder and docs.
+
+4). If you are making new project then add App42_JAVA_SDK-x.x.x.jar and required jar file in lib folder in your lib folder.
+ or 
+4). If your using your existing project then add App42_JAVA_SDK-x.x.x.jar in your lib folder.
+ 
+5).Put these jar files in class path of your Java project.
