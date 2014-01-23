@@ -15,7 +15,7 @@
 **The following features have been pushed  :**
 
 ```
-Meta info in user and scoreboard.
+Meta info in UserService (getUser,getUsersByRole,getUserByEmailId) and ScoreBoardService(getTopNRankers).
 ```
 
 **The following features have been pushed to the services :**
