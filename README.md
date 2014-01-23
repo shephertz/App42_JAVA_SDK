@@ -1,7 +1,13 @@
 App42_JAVA_SDK
 ==============
 
-Download and Set up SDK
+# Register and Getting Keys
+
+1. [Register] (https://apphq.shephertz.com/register) with App42 platform.
+2. Create an app once you are on Quick start page after registration.
+3. If you are already registered, login to [AppHQ] (http://apphq.shephertz.com/register/app42Login) console and create an app from App Manager Tab.
+
+# Download and Set up SDK
 
 1). [Download] (https://github.com/shephertz/App42_JAVA_SDK/archive/master.zip) Java SDK
 
@@ -16,3 +22,20 @@ Download and Set up SDK
 4). If your using your existing project then add App42_JAVA_SDK-x.x.x.jar in your lib folder.
  
 5).Put these jar files in class path of your Java project.
+
+
+# Initializing SDK
+You have to instantiate ServiceAPI class and pass your ApiKey/SecretKey to initialize the SDK.
+
+```
+ServiceAPI serviceAPI = new ServiceAPI("YOUR_API_KEY","YOUR_SECRET_KEY"); 
+```
+
+# Using App42 Services
+ you have to build target service that you want to use in your app. For example, User Service can be build with following snippet. Similarly you can build other service also with same notation.
+ 
+```
+UserService userService = serviceAPI.buildUserService();
+//Similarly you can build other services like serviceAPI.buildXXXXService()
+```
+
