@@ -1,7 +1,6 @@
 App42_JAVA_SDK
 ==============
 
-# Register and Getting Keys
 
 1. [Register] (https://apphq.shephertz.com/register) with App42 platform.
 2. Create an app once you are on Quick start page after registration.
