@@ -1,10 +1,85 @@
+* [Release Version 2.0](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-20)
 * [Release Version 1.9](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-19)
 * [Release Version 1.8](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-18)
 * [Release Version 1.7](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-17)
 * [Release Version 1.6](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-16)
 
+
+## Version 2.0
+ 
+
+**Release Date:** 23-01-2014
+
+**Release Version:** 2.0
+
+**The following features have been pushed  :**
+
+```
+Meta info in user and scoreboard.
+```
+
+**The following features have been pushed to the services :**
+
+**PUSH SERVICE**
+
+```
+sendMessageToInActiveUsers
+scheduleMessageToUser
+
+```
+
+**STORAGE SERVICE**
+
+```
+updateDocumentByQuery
+```
+
+
+**REVIEW SERVICE**
+
+```
+updateDocumentByQuery
+deleteCommentByCommentId
+```
+
+**BUDDY SERVICE**
+
+```
+unFriend
+deleteMessageById
+deleteMessageByIds
+```
+
+**SCOREBOARD SERVICE**
+
+```
+getTopNTargetRankers
+getTopNRankersFromFacebook(With specefied dange range)
+```
+
+**AVATAR SERVICE**
+
+```
+createAvatar (With inputStream)
+```
+
+**GALLERY SERVICE**
+
+```
+updatePhoto
+```
+
+**This release contains the following bug fix:**
+
+```
+Bug fix of uncaught exception
+```
+
+
+
+
 ## Version 1.9 
-[Download] (https://github.com/shephertz/App42_JAVA_SDK/raw/master/1.9/app42_java_1.9.zip)
+
 
 **Release Date:** 25-11-2013
 
@@ -39,7 +114,7 @@ None
 
 
 ## Version 1.8 
-[Download] (https://github.com/shephertz/App42_JAVA_SDK/raw/master/1.8/app42_java_1.8.zip)
+[Download] (https://github.com/shephertz/App42_JAVA_SDK/raw/1.x/1.8/app42_java_1.8.zip)
 
 **Release Date:** 23-10-2013
 
