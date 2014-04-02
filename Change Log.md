@@ -49,6 +49,8 @@ insertJSONDocument(With Attach File)
 
 ```
 addJSONObject(Add Extra Information while creating user)
+createUserWithProfile
+getUsersByGroup
 ```
 
 **SCOREBOARD SERVICE**
