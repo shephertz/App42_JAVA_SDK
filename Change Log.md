@@ -65,26 +65,13 @@ clearAllBadgeCount
 getCountByQuery
 ```
 
-**User SERVICE**
 
-```
-addJSONObject(Add Extra Information while creating user)
-createUserWithProfile
-getUsersByGroup
-```
 
 **SCOREBOARD SERVICE**
 
 ```
 getUsersWithScoreRange
 ```
-
-**REVIEW SERVICE**
-
-```
-getAllReviewsByUser
-```
-
 
 **This release contains the following bug fix:**
 
