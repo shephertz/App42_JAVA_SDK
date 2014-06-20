@@ -1,3 +1,5 @@
+* [Release Version 2.3](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-23)
+* [Release Version 2.2](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-22)
 * [Release Version 2.1](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-21)
 * [Release Version 2.0](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-20)
 * [Release Version 1.9](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-19)
@@ -5,6 +7,90 @@
 * [Release Version 1.7](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-17)
 * [Release Version 1.6](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-16)
 
+
+## Version 2.3
+
+**Release Date:** 20-06-2014
+
+**Release Version:** 2.3
+
+**The following Services have been pushed to the latest :**
+```
+Timer Service
+Gift Service
+```
+**This release contains the following bug fix:**
+
+```
+None
+```
+
+
+## Version 2.2
+ 
+
+**Release Date:** 20-06-2014
+
+**Release Version:** 2.2
+
+**The following features have been pushed  :**
+
+```
+If you are upgrading from previous version of App42_ANDROID_SDK and have used getRecordCount() method on storage service, you have to change its return type as Integer instead of string, because the return type of this method is changed.
+
+**OlD Code Snippet:
+String  recordCount =storageResponse.getRecordCount();
+
+**New Code Snippet :
+Integer  recordCount =storageResponse.getRecordCount();
+```
+
+```
+New NokiaX enum added in push DeviceType.
+```
+
+**The following features have been pushed to the services :**
+
+**PUSH SERVICE**
+
+```
+updatePushBadgeforDevice
+updatePushBadgeforUser
+clearAllBadgeCount
+```
+
+**STORAGE SERVICE**
+
+```
+getCountByQuery
+```
+
+**User SERVICE**
+
+```
+addJSONObject(Add Extra Information while creating user)
+createUserWithProfile
+getUsersByGroup
+```
+
+**SCOREBOARD SERVICE**
+
+```
+getUsersWithScoreRange
+```
+
+**REVIEW SERVICE**
+
+```
+getAllReviewsByUser
+```
+
+
+**This release contains the following bug fix:**
+
+```
+None
+```
 
 ## Version 2.1
  
