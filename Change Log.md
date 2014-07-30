@@ -1,3 +1,5 @@
+* [Release Version 2.3.1](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-231)
+* [Release Version 2.2.1](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-221)
 * [Release Version 2.3](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-23)
 * [Release Version 2.2](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-22)
 * [Release Version 2.1](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-21)
@@ -6,6 +8,35 @@
 * [Release Version 1.8](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-18)
 * [Release Version 1.7](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-17)
 * [Release Version 1.6](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-16)
+
+
+## Version 2.3.1
+
+**Release Date:** 30-07-2014
+
+**Release Version:** 2.3.1
+
+
+```
+**This release contains the following bug fix:**
+
+```
+class version bug fix
+```
+
+## Version 2.2.1
+
+**Release Date:** 30-07-2014
+
+**Release Version:** 2.2.1
+
+
+```
+**This release contains the following bug fix:**
+
+```
+class version bug fix
+```
 
 
 ## Version 2.3
