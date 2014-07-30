@@ -16,8 +16,6 @@
 
 **Release Version:** 2.3.1
 
-
-```
 **This release contains the following bug fix:**
 
 ```
@@ -30,8 +28,6 @@ class version bug fix
 
 **Release Version:** 2.2.1
 
-
-```
 **This release contains the following bug fix:**
 
 ```
