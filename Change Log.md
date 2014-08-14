@@ -1,3 +1,4 @@
+* [Release Version 2.4](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-24)
 * [Release Version 2.3.1](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-231)
 * [Release Version 2.2.1](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-221)
 * [Release Version 2.3](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-23)
@@ -9,6 +10,46 @@
 * [Release Version 1.7](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-17)
 * [Release Version 1.6](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-16)
 
+
+## Version 2.4
+
+**Release Date:** 14-08-2014 
+
+**Release Version:** 2.4
+
+**The following features have been pushed to the services :**
+
+
+**PUSH NOTIFICATION SERVICE**
+
+```
+deleteChannel
+getChannelUsersCount
+getChannelUsers
+getUserSubscribedChannelsCount
+getUserSubscribedChannels
+```
+**AVATAR SERVICE**
+
+```
+updateAvatar
+deleteAvatarByName
+deleteAllAvatars
+```
+
+**QUERY BUILDER**
+
+```
+setCreatedOn
+setUpdatedOn
+setDocumentId
+```
+
+**This release contains the following bug fix:**
+
+```
+None
+```
 
 ## Version 2.3.1
 
