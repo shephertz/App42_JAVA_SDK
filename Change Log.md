@@ -1,3 +1,4 @@
+* [Release Version 2.4.1](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-241)
 * [Release Version 2.4](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-24)
 * [Release Version 2.3.1](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-231)
 * [Release Version 2.2.1](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-221)
@@ -10,6 +11,19 @@
 * [Release Version 1.7](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-17)
 * [Release Version 1.6](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-16)
 
+
+
+## Version 2.4.1
+
+**Release Date:** 17-09-2014
+
+**Release Version:** 2.4.1
+
+**This release contains the following bug fix:**
+
+```
+score board bug fix for user list in group .
+```
 
 ## Version 2.4
 
