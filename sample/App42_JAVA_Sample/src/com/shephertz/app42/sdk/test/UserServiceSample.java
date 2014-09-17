@@ -1,51 +1,64 @@
 package com.shephertz.app42.sdk.test;
 
-import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.Date;
-
+import com.shephertz.app42.paas.sdk.java.App42BadParameterException;
+import com.shephertz.app42.paas.sdk.java.App42Exception;
+import com.shephertz.app42.paas.sdk.java.App42SecurityException;
 import com.shephertz.app42.paas.sdk.java.ServiceAPI;
-import com.shephertz.app42.paas.sdk.java.game.Game;
-import com.shephertz.app42.paas.sdk.java.game.GameService;
-import com.shephertz.app42.paas.sdk.java.game.ScoreBoardService;
+import com.shephertz.app42.paas.sdk.java.user.User;
+import com.shephertz.app42.paas.sdk.java.user.UserService;
+
 
 public class UserServiceSample {
-
+	
 	/**
 	 * Main Method To Create App42 User on Cloud
-	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		createUser();
 	}
-
+	
 	/**
-	 * Test Method for creating the User in App42 Cloud.
+	 * Test Method for creating the User in App42 Cloud. 
 	 */
 	public static void createUser() {
-		ServiceAPI sp = new ServiceAPI(
-				"30de7e0dcf044cb4c5b46b606868a619a7057e727312392a0f346aafb3036e0f",
-				"80375913972b990a07495686c40ebe012672aa9821d1999e19b9459a3f133191");
-		GameService gameService = sp.buildGameService();
-		ScoreBoardService scoreBoardService = sp.buildScoreBoardService();
-		String gameName = "Pingo" + new Date().getTime();
-		Game gameObj = gameService.createGame(gameName, "gameDescription01");
-		System.out.println("testing" + gameObj);
-		Game saveUserScoreObj = scoreBoardService.saveUserScore(gameName,
-				"Nick", new BigDecimal(3500));
-		System.out.println("saveUserScoreObj---------- " + saveUserScoreObj);
-		Game saveUserScoreObj1 = scoreBoardService.saveUserScore(gameName,
-				"Ajay", new BigDecimal(35001));
-		System.out.println("saveUserScoreObj1---------- " + saveUserScoreObj1);
-		ArrayList<String> userList = new ArrayList<String>();
-		userList.add("Ajay");
-		for (int i = 0; i < 850; i++) {
-			userList.add("sach" + i);
+		// Enter your Public Key and Private Key Here in Constructor. You can 
+		// get it once you will create a app in app42 console
+		ServiceAPI sp = new ServiceAPI("YOUR_API_KEY","YOUR_SECRET_KEY");
+		// Create Instance of User Service
+		UserService userService = sp.buildUserService();
+
+		// create user or call other available method on the user service
+		// reference
+		try {
+			System.out.println("Starting User Creation test");
+			User user = userService.createUser("Nick", "******","nick@shephertz.com");
+			
+			//Fetch the returned JSON response 
+			System.out.println(" User Creation Successfull !!! JSON Response is : " + user);
+			
+			//Using returned User object, user property can be fetched
+			//Fetch User name from user object
+			System.out.println(" Created User Name is : " + user.getUserName());
+		} catch (App42BadParameterException ex) {
+			System.out.println("App42BadParameterException ");
+			// Exception Caught
+			// Check if User already Exist by checking app error code
+			if (ex.getAppErrorCode() == 2001) {
+				// Do exception Handling for Already created User.
+				System.out.println(" User already exist with given user name");
+			}
+		} catch (App42SecurityException ex) {
+			System.out.println("App42SecurityException ");
+			// Exception Caught
+			// Check for authorization Error due to invalid Public/Private Key
+			if (ex.getAppErrorCode() == 1401) {
+				// Do exception Handling here
+			}
+		} catch (App42Exception ex) {
+			System.out.println("App42Exception ");
+			// Exception Caught due to other Validation
 		}
-		Game getTopRanker = scoreBoardService.getTopRankingsByGroup(gameName,
-				userList);
-		System.out.println("getTopRanker------------ " + getTopRanker);
 
 	}
 
