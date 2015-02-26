@@ -1,3 +1,5 @@
+* [Release Version 2.5.2](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-252)
+* [Release Version 2.5.1](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-251)
 * [Release Version 2.5](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-25)
 * [Release Version 2.4.1](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-241)
 * [Release Version 2.4](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-24)
@@ -12,7 +14,29 @@
 * [Release Version 1.7](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-17)
 * [Release Version 1.6](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-16)
 
+## Version 2.5.2
 
+**Release Date:** 26-02-2015
+
+**Release Version:** 2.5.2
+
+**This release contains the following bug fix:**
+
+```
+Internal log added in case of exception 
+```
+
+## Version 2.5.1
+
+**Release Date:** 18-02-2015
+
+**Release Version:** 2.5.1
+
+**This release contains the following bug fix:**
+
+```
+AppErrorCode Bug Fix 
+```
 
 ## Version 2.5
 
