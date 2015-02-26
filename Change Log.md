@@ -23,7 +23,7 @@
 **This release contains the following bug fix:**
 
 ```
-Internal log added in case of exception 
+Internal Log added in case of exception 
 ```
 
 ## Version 2.5.1
