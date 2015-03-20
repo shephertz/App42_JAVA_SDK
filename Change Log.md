@@ -25,7 +25,7 @@
 
 **The following features have been pushed to the services :**
 
-*GAME SERVICE**
+**GAME SERVICE**
 
 ```
 deleteGame
