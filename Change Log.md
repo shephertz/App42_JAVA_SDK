@@ -15,6 +15,28 @@
 * [Release Version 1.7](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-17)
 * [Release Version 1.6](https://github.com/shephertz/App42_JAVA_SDK/blob/master/Change%20Log.md#version-16)
 
+
+
+## Version 2.6
+
+**Release Date:** 20-03-2015
+
+**Release Version:** 2.6
+
+**The following features have been pushed to the services :**
+
+*GAME SERVICE**
+
+```
+deleteGame
+```
+
+**This release contains the following bug fix:**
+
+```
+None
+```
+
 ## Version 2.5.2
 
 **Release Date:** 26-02-2015
@@ -25,26 +47,6 @@
 
 ```
 Internal Log added in case of exception 
-```
-
-## Version 2.6
-
-**Release Date:** 20-03-2015
-
-**Release Version:** 2.6
-
-**The following features have been pushed to the services :**
-
-**PUSH NOTIFICATION SERVICE**
-
-```
-deleteGame
-```
-
-**This release contains the following bug fix:**
-
-```
-None
 ```
 
 ## Version 2.5.1
